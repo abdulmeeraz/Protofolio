@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  h1::after {
+    content: " ★"; /* Adds a star after the h1 text */
+    color: #f39c12; /* Star color */
+}
+h1 {
+    text-shadow: 2px 2px 4px rgba(10, 10, 10, 0.2);
+}
+
+  header {
+    background-color: #575a5b;
+    color: #ff2c2c;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  a {
+    color: #222501;
+    text-decoration: none;
+  }
+  
+  .image{
+    border-radius: 75px;
+  }
+  .section {
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #ffa600; /* Light gray background color */
+  }
+
+.section a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Change link color on hover */
+.section a:hover {
+    color: #003975; /* Darker blue on hover */
+}
+  
+.section:hover {
+    transform: scale(1.05); /* Scale up the section on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+        background-color: #060606;
+        color: #fff;
+        transition: background-color 0.3s ease;
+}
+.section {
+    border: 2px solid #3498db; /* Border color and thickness */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+}
+a {
+    color: #000000; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.fa-download {
+    color: #007bff; /* Icon color */
+    font-size: 1.2em; /* Icon size */
+    margin-right: 5px; /* Spacing between icon and text */
+}
